@@ -40,3 +40,10 @@ operator, then default should be +
 ## 6.Concatenate the two arrays.
 
 [06.concatArrays.js](06.concatArrays.js)
+
+## 7. Lowercase and Uppercase
+
+Write a function that creates an object with each (key, value) pair being the (lower case, upper case)
+versions of a letter, respectively.
+
+[07.objectWithLetters.js](07.objectWithLetters.js)
