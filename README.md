@@ -10,12 +10,14 @@ displayed.
 
 [02.ObjectDist2.js](02.ObjectDist2.js)
 
-## 3. Upvotes and Downvotes
+## 3. After Tax Income Strategy
 
-Given an object containing counts of both upvotes and downvotes, return what vote count should be
-displayed. This is calculated by subtracting the number of downvotes from upvotes.
+The 50-30-20 strategy is a simple way to budget, which involves spending 50% of after-tax income on
+needs, 30% after tax income on wants, and 20% after-tax income on savings or paying off debt.
+Given the after-tax income as ati, what you are supposed to do is to make a function that will return an
+object that shows how much a person needs to spend on needs, wants, and savings.
 
-[upvotes.js](upwotes.js)
+[03.budgetStrategy.js](03.budgetStrategy.js)
 
 ## 4. facts about the city
 Create a function that takes an object as an argument and returns a string with facts about the city. The city
