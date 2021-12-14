@@ -13,12 +13,12 @@ fiftyThirtyTwenty(13450); // ➞ { "Needs": 6725, "Wants": 4035, "Savings":
 
 */
 let income = {};
+let { Needs, Wants, Savings } = income;
 function fiftyThirtyTwenty(ati) {
-  let { Needs, Wants, Savings } = income;
-  Needs = ati * 0.5;
-  Wants = ati * 0.3;
-  Savings = ati * 0.2;
+  income.Needs = ati * 0.5;
+  income.Wants = ati * 0.3;
+  income.Savings = ati * 0.2;
   return income;
 }
 
-fiftyThirtyTwenty(10000);
+console.log(fiftyThirtyTwenty(10000));
