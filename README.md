@@ -47,3 +47,16 @@ Write a function that creates an object with each (key, value) pair being the (l
 versions of a letter, respectively.
 
 [07.objectWithLetters.js](07.objectWithLetters.js)
+
+## 8. Swapping Values
+
+Swapping Values using the Destructuring Assignment
+
+[08.swappingValues.js](08.swappingValues.js)
+
+## 9. function that returns the frequency distribution of an array
+
+// Create a function that returns the frequency distribution of an array. This function should return an object,
+//where the keys are the unique elements and the values are the frequency in which those elements occur.
+
+[09.frequencies.js ](09.frequencies.js)
