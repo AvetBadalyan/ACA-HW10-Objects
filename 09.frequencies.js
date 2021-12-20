@@ -4,7 +4,7 @@ let array = ["A", "B", "A", "A", "A"];
 function getFrequencies(arr) {
   let frequencies = {};
   for (let num of arr) {
-    if ((frequencies[num] = frequencies[num])) {
+    if ((frequencies[num])) {
       frequencies[num]++;
     } else {
       frequencies[num] = 1;
